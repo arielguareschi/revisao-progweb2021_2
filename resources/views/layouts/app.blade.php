@@ -34,10 +34,11 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                         @auth
-
-
                         <li class="nav-item">
                             <a class="nav-link" href="{{ url('cidades') }}"><i class="fa fa-building" aria-hidden="true"></i> Cidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('clientes') }}"><i class="fa fa-user" aria-hidden="true"></i> Clientes</a>
                         </li>
                         @endauth
                     </ul>
